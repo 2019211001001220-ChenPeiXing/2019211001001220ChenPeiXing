@@ -2,10 +2,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>JSP - MY HOMEWORK</title>
 </head>
 <body>
-<h1><%= "Hello World!!!" %>
+<h1><%= "Name:chenpeixing" %><br/>
+    <%= "ID:2019211001001220" %><br/>
+    <%= "Date and timr :Sun Mar 14 14:20:20 CST 2021" %><br/>
 </h1>
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
