@@ -8,11 +8,20 @@
         <servlet-name>cpx</servlet-name><!-- give any name -->
         <servlet-class>com.chenpeixing.week2.homework.HelloWorldServlet</servlet-class><!--package +name of servlet class -->
     </servlet>
+    <!--automatic code-->
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>dabing.week3.demo.</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>cpx</servlet-name>
-        <url-pattern>/hello</url-pattern><!-- url must start with / -->
+        <url-pattern>/hello</url-pattern><!--url must start with /-->
     </servlet-mapping>
-    <!-- x=5, a=x so we can say a=5
-    so /hello==com.chenpeixing.week2.homework.HelloWorldServlet
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/register</url-pattern><!--write this url in cation -->
+    </servlet-mapping>
+    <!--x=5, x=a, so we can say a=5
+    so /hello==com.dabing.week2.demo.HelloWorldServlet
     -->
 </web-app>
