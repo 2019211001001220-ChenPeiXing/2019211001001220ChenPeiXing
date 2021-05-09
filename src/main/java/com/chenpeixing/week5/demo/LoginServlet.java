@@ -44,12 +44,12 @@ public class LoginServlet extends HttpServlet {
 
 
 
-                String rememberMe=request.getParameter("rememberMe");
+                String rememberMe=request.getParameter("remember");
                 if (rememberMe!=null &&rememberMe.equals("1"))
                 {
                     Cookie usernameCookie = new Cookie("cUsername",user.getUsername());
                     Cookie passwordCookie= new Cookie("cPassword",user.getPassword());
-                    Cookie rememberMeCookie = new Cookie("cRememberMe",request.getParameter("rememberMe"));
+                    Cookie rememberMeCookie = new Cookie("cRememberMe",request.getParameter("remember"));
                     usernameCookie.setMaxAge(10);
                     passwordCookie.setMaxAge(10);
                     rememberMeCookie.setMaxAge(10);
