@@ -9,7 +9,6 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.List;
 import java.util.logging.Logger;
-
 import com.chenpeixing.dao.ProductDao;
 import com.chenpeixing.model.Product;
 
@@ -76,4 +75,3 @@ public class AddProductServlet extends HttpServlet {
     }
 
 }
-© 2021 GitHub, Inc.
